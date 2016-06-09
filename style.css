@@ -1,0 +1,122 @@
+#titlemain:hover{
+	color:#9d9d9d;
+	text-decoration:none;
+}
+.navbuttons:hover{
+	color:#9d9d9d;
+}
+.img-responsive{
+	margin:0 auto;
+}
+#headlogo{
+	height:100px;
+	padding-top:10px;
+}
+#titlemain, .navbuttons{
+	color:black;
+}
+#navbarmain{
+	background-color:#f1f1f1;
+}
+li.navbuttons{
+	margin: 0 0 0 10px;
+	box-shadow:inset 0 0 0 99999px rgba(255,255,255,0.2);
+}
+li.navbuttons:hover{
+	box-shadow:none;
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+	margin-right:10px;
+}
+p{
+	padding-right:10px;
+	padding-left:10px;
+	
+}
+.hovergallery{
+	display:inline-block;
+	margin-top:20px;
+	filter:gray;
+	-webkit-filter: grayscale(1);
+		-webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+.hovergallery:hover{
+	filter:none; /* IE6-9 */
+	-webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+li{
+	list-style-type: none;
+}
+div.img-thumbnail, div.img-responsive{
+	margin: 0 auto;
+	padding: 10px;
+}
+#map-outer{
+	height: 500px;
+	padding: 20px;
+}
+#map{
+	height: 480px;
+}
+
+#image1index, #image2index, #image3index{
+	width:100%;
+	height: 396px;
+	-webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+	padding: 10px;
+}
+p.text-center{
+	padding-top: 10px;
+}
+#socialmediatwitter{
+	padding-right:25px;
+	padding-top:10px;
+}
+#socialmediafacebook{
+	padding-left:25px;
+	padding-top:10px;
+}
+.img-thumbnail{
+	height:210px;
+}
+#form{
+	padding-top: 10px;
+}
+#responsiveimage1, #responsiveimage2, #responsiveimage5{
+	margin-right: 40px;
+	margin-left: 40px;
+}
+#responsiveimage3, #responsiveimage4{
+	margin-right: 100px;
+	margin-left: 100px;
+}
+#responsiveimage6{
+	margin-right: 7.5px;
+	margin-left: 7.5px;
+}
+.footer{
+	height: 50px;
+	padding-bottom: 10px;
+	position: absolute;
+	bottom: 0;
+	width: 80%;
+}
+
+html{
+	position: relative;
+	min-height: 100%;
+}
+body{
+	margin-bottom: 60px;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.frontpageparagraph{
+	font-size:16px;
+}
